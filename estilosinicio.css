@@ -1,0 +1,132 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    padding:30px;
+  
+    background:  #061a3fd3;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+    flex: 1 auto; 
+
+   }
+
+nav{
+   
+    display: flex;
+    justify-content: flex-end;
+    background: #ccc;
+
+    
+}
+nav a{
+    color: #555;
+    text-decoration: none;
+    padding: 15px;
+
+}
+nav a:hover{
+    background: #555 ;
+    color:#cccccc;
+    
+}
+
+
+header{
+    padding:30px;
+    background: #121257;
+    color: #ffffff;
+    font-size: 40PX;
+    font-weight: bold;
+    display:flex;
+    flex-flow: row nowrap; 
+    align-items: center; 
+    justify-content: space-evenly;
+    text-decoration: none;
+
+}
+footer {
+    width: auto;
+    background-color: #121257;
+    color: white;
+    text-align: center;
+    padding: 20px 0; 
+    flex: 1 auto; 
+    font-weight: bold;
+}
+
+.redes-sociales a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.redes-sociales a:hover {
+    text-decoration: underline; 
+}
+.padre1{
+    box-shadow: 0 0 1rem grey;
+    border: #a0a0a0 solid;
+    border-radius:  2%;
+    background-color:#ccc;
+    display: flex;
+ width: auto;
+ text-align:justify;
+ align-items: center;
+ position: relative;
+ justify-content: space-between;
+ padding: 40px;
+
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: auto;
+ 
+ align-items: center;
+ position: relative;
+ justify-content: space-between;
+}
+.imagen {
+    
+    height: 500px;
+    border-radius: 30%;
+    
+}
+.hijo1{
+    padding-left: 40px;
+    width: auto;
+}
+
+#logo {
+    width: 90px;
+}
+#logo2{
+    
+    display: flex;
+}
+
+
+@media(max-width:1080px){
+    .padre1{
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+ol{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: auto;
+ text-align:justify;
+ align-items: center;
+ position: relative;
+ justify-content: space-between;
+}
